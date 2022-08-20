@@ -1,0 +1,12 @@
+name: GetYT
+summary: A fork of GetYT with additional features and patches
+description: |
+      Download videos on your local system from youtube via link. Runs with all the features and patches of GetYT.
+version: 0.1.0
+grade: stable
+confinement: devmode
+base: core22
+
+parts:
+  GetYT:
+    plugin: python,tkinter ,pytube
